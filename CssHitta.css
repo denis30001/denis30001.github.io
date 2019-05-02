@@ -1,0 +1,114 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav{
+
+  list-style: none;
+  margin-top:30px;
+  text-align: center;
+}
+.main-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.main-nav li{
+  display: inline-block;
+}
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  height: auto;
+  text-decoration: none;
+
+
+}
+ li.active a {
+  border: 1px solid orange;
+}
+li a:hover {
+  border: 1px solid brown;
+  background-color: brown;
+}
+.logo img{
+  width: 150px;
+  height: auto;
+  float:left;
+}
+@media only screen and (max-width: 767px) {
+  body { background-image: url(images/background-photo-mobile-devices.jpg);
+  }
+}
+
+
+body {
+  font-family: monospace;
+  background-image: url("Bakgrund sidaett.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.row{
+  max-width: 1200px;
+  margin: auto;
+}
+h1 {
+  text-align:center;
+  color: brown;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  color: brown;
+
+}
+.Text{
+  text-align: center;
+  color: Brown;
+  padding: 15px 20px;
+  font-size: 30px;
+  min-width: 100px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:10.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:50%;
+    position:absolute;
+    text-align: center;
+}
+
+iframe{
+  width: 100%;
+}
+.navbar {
+  overflow: hidden;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar  {
+  float: left;
+  display: block;
+  color: #8B4513;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: lightgrey;
+}

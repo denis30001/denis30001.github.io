@@ -1,0 +1,50 @@
+@media only screen and (max-width: 767px) {
+  body { background-image: url(images/background-photo-mobile-devices.jpg);
+  }
+}
+
+
+body {
+  font-family: monospace;
+  background-image: url("Bakgrund sidaett.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.logo img{
+  width: 150px;
+  height: auto;
+  float:left;
+}
+h1 {
+  text-align:center;
+  color: brown;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  color: brown;
+  margin: 0;
+  padding: 0;
+
+}
+fieldset{
+  background-color: white;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: #8B4513;
+    text-align: center;
+
+}

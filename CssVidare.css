@@ -1,0 +1,51 @@
+@media only screen and (max-width: 767px) {
+   body { background-image: url(images/background-photo-mobile-devices.jpg);
+   }
+ }
+
+
+ body {
+   font-family: monospace;
+   background-image:url(vidare.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+li{
+    list-style-type: none;
+    text-align: center;
+
+
+}
+
+li a{
+  display: inline-block;
+  color: black;
+  font-family: "Times New Roman", sans-serif;
+  height: auto;
+  font-size: 50px;
+  text-decoration: none;
+
+  margin-top: 30px;
+}
+li.active a{
+  border: 1px solid white;
+  list-style-type: none;
+
+}
+li:hover a{
+  background-color: blue;
+
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: #8B4513;
+    text-align: center;
+
+}

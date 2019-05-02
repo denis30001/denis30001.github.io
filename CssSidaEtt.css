@@ -1,0 +1,89 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+ li.active a {
+  border: 1px solid orange;
+}
+li a:hover {
+  border: 1px solid brown;
+  background-color: brown;
+}
+.logo img{
+  width: 150px;
+  height: auto;
+  float:left;
+}
+@media only screen and (max-width: 767px) {
+  body { background-image: url(images/background-photo-mobile-devices.jpg);
+  }
+}
+
+
+body {
+  font-family: monospace;
+  background-image: url("Bakgrund sidaett.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.row{
+  max-width: 1200px;
+  margin: auto;
+}
+h1 {
+  text-align:center;
+  color: brown;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  color: brown;
+
+}
+
+
+.navbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: #8B4513;
+    text-align: center;
+
+}
+
+
+.column {
+  float: left;
+  width: 23.83%;
+  padding: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+fieldset{
+  border: 1px solid rgb(139,69,19);
+  width: 400px;
+  margin:auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: brown;
+}

@@ -1,0 +1,110 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav{
+
+  list-style: none;
+  margin-top:30px;
+  text-align: center;
+}
+.main-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.main-nav li{
+  display: inline-block;
+}
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  height: auto;
+  text-decoration: none;
+
+
+}
+ li.active a {
+  border: 1px solid orange;
+}
+li a:hover {
+  border: 1px solid brown;
+  background-color: brown;
+}
+.logo img{
+  width: 150px;
+  height: auto;
+  float:left;
+}
+
+body {
+  font-family: monospace;
+  background-image: url("Bakgrund sidaett.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  text-align:center;
+  color: brown;
+}
+h2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  color: brown;
+
+}
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+  text-align: center;
+}
+.form-control{
+  width: 40%;
+  background: transparent;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid brown;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+
+}
+input{
+  height: 45px;
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color:#fff;
+  font-size:20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  width: 40%;
+  margin-bottom: 1em;
+
+}
+form .submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+  transition: .2s all ease-in-out;
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: #8B4513;
+    text-align: center;
+
+}
